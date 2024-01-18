@@ -1,0 +1,135 @@
+/* BusinessCard CSS Start Here */
+
+.BusinessCard{
+    padding: 80px 0;
+    background: #FAF6FF;
+}
+
+.Business__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.CardWrapper{
+    max-width: 410px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    background: #FAF6FF;
+    box-shadow: 0px 86px 114px 0px rgba(124, 20, 253, 0.14);
+    padding: 50px;
+}
+
+.CardWrapperTitle{
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37.6px;
+    padding-bottom: 26px;
+}
+
+.CardWrapperDetails{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 60px;
+}
+
+.CardBtn{
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 13px 24px;
+    border-radius: 15px;
+    background: #B070FF;
+    border: none;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.CardBtn:hover{
+    background: #7e21f0;
+}
+
+
+.ReadMoreIcon{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.navigation__main{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+.navigation__second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.pre__name{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 37.6px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.pre__name:hover{
+    color: #B070FF;
+}
+
+.numberUnList{
+    display: flex;
+    column-gap: 20px;
+}
+
+.numberList{
+    background: transparent;
+    padding: 8px 20px;
+    transition: all linear 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.numberList a{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 37.6px;
+    transition: all linear 0.3s;
+}
+
+.numberList a:hover{
+    color: #fff;
+    background: #7e21f0;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.next__name{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 37.6px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.next__name:hover{
+    color: #B070FF;
+}
+/* BusinessCard CSS End Here */

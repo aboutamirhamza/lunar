@@ -1,0 +1,55 @@
+/* Consultation CSS Start Here */
+
+.consultation__wapper{
+    background-image: url("../../assets/consultation.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 240px 0px;
+}
+
+.consultation__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consultation__left__content{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 128.3%;
+    max-width: 740px;
+}
+
+.consultation__right__content{
+    border-radius: 1000px;
+    background: #FFF;
+    width: 100%;
+    padding: 24px 24px;
+    border: none;
+}
+
+.consultation__right__content:focus{
+    outline: 0;
+}
+
+.consultation__btn{
+    width: 100%;
+    border-radius: 1000px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    background: #32046B;
+    box-shadow: 0px 41px 51px 0px rgba(118, 82, 164, 0.39);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.consultation__btn:hover{
+    background: #6100d7;
+}
+/* Consultation CSS End Here */

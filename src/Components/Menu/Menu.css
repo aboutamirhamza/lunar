@@ -1,0 +1,64 @@
+.nav{
+    background: #FFF;
+    box-shadow: 0px 12px 22px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 0;
+
+}
+
+.navWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.navWrapperLogo{
+    margin-right: 370px;
+    cursor: pointer;
+}
+
+.navMenu{
+    display: flex;
+    column-gap: 40px;
+}
+
+.navMenuList a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+}
+
+.navMenuList a:hover{
+    color:  #7C14FD;
+}
+
+.DropIcon{
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #000;
+    font-size: 22px;
+    transition: all linear 0.3s;
+}
+
+.navMenuList:last-child:hover .DropIcon{
+    color:  #7C14FD;
+}
+
+
+
+.navWrapperBtn button{
+    border-radius: 1000px;
+    border: 1px solid  #7C14FD;
+    background: transparent;
+    padding: 20px 40px;
+    color:  #7C14FD;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.navWrapperBtn button:hover{
+    background: #7C14FD;
+    color: #fff;
+}

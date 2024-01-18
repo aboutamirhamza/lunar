@@ -1,0 +1,79 @@
+.banner{
+    background: #faf6ff;
+    position: relative;
+    overflow: hidden;
+    padding: 200px 0 300px;
+}
+
+.banner::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: url(../../assets/bannerWave.png);
+}
+
+.bannerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerLeft{
+
+}
+
+.bannerLeft__title{
+    color: #000;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 115.7%;
+    letter-spacing: -1.14px;
+    padding-bottom: 36px;
+    position: relative;
+}
+
+.bannerLeft__title:after{
+    width: 600px;
+    height: 20px;
+    position: absolute;
+    top: 28%;
+    left: 0;
+    opacity: 0.2;
+    background: #7C14FD;
+    content: '';
+}
+
+.bannerLeft__title__external{
+    color: #7C14FD;
+}
+
+.bannerLeft__details{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.market__place{
+    display: flex;
+    column-gap: 25px;
+    padding-bottom: 35px;
+}
+
+.cbtn{
+    padding: 24px 55px;
+    color: #fff;
+    border-radius: 20px;
+    background: #7C14FD;
+    box-shadow: 0px 26px 46px 0px rgba(124, 20, 253, 0.35);
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.bannerRight__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

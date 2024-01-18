@@ -1,0 +1,108 @@
+/* Testimonial CSS Start Here */
+
+.Testimonial{
+    padding: 200px 0;
+    background: faf6ff;
+}
+
+.heading__testimonial{
+    color: #000;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 137.2%;
+    position: relative;
+}
+
+.heading__testimonial::after{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    transform: translateX(43%);
+    content: url("../../assets/after.png");
+}
+
+.testimonial__main{
+    background: #fff;
+    border-radius: 15px;
+    filter: drop-shadow(0px 69px 114px rgba(124, 20, 253, 0.08));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 110px 150px;
+    column-gap: 50px;
+}
+
+.testimonial__main__left{
+    width: 253px;
+    height: 292px;
+    border-radius: 8px;
+    background: #FC5A5A;
+    position: relative;
+}
+
+.testimonial__main__left:after{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    content: url("../../assets/quote.png");
+}
+
+.testimonial__main__right__content{
+    max-width: 718px;;
+    color: #32046B;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+
+.testimonial__main__right__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.testimonial__text{
+    color: #7C14FD;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.testimonial__icons{
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.arrow__left{
+    color: #959EAD;
+    background: transparent;
+    font-size: 45px;
+    padding: 15px;
+    transition: all linear 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow__left:hover{
+    background: #7C14FD;
+    color: #fff;
+}
+
+.arrow__right{
+    color: #959EAD;
+    background: transparent;
+    font-size: 45px;
+    padding: 15px;
+    transition: all linear 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.arrow__right:hover{
+    background: #7C14FD;
+    color: #fff;;
+}
+/* Testimonial CSS End Here */
